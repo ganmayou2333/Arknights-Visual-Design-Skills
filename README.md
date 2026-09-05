@@ -17,6 +17,7 @@ A comprehensive AI Agent Skill that provides detailed visual design specificatio
 - [Quick Reference](#quick-reference)
 - [Contributing](#contributing)
 - [License](#license)
+- [Copyright Notice](#copyright-notice)
 - [Disclaimer](#disclaimer)
 
 ---
@@ -58,6 +59,7 @@ arknights-design-style-guide/
 ├── SKILL.md                          # Main entry: frontmatter + workflow + quick reference
 ├── README.md                         # English documentation (this file)
 ├── readme_cn.md                      # Chinese documentation with installation tutorials
+├── LICENSE                           # MIT License
 └── references/
     ├── ui-style.md                   # Complete UI design specification
     ├── poster-style.md               # Complete poster/key art specification
@@ -169,7 +171,13 @@ When contributing, ensure:
 
 ## License
 
-This Skill is provided for educational and creative reference purposes. Arknights (明日方舟) is a trademark of Hypergryph / Yostar. This is an unofficial fan-created style guide and is not affiliated with or endorsed by the game's developers or publishers.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+## Copyright Notice
+
+Arknights (明日方舟) is a trademark of Hypergryph Network Technology Co., Ltd. and Yostar Limited. This project is an unofficial, fan-created style guide and is not affiliated with, endorsed by, or sponsored by the game's developers or publishers.
+
+All game-related names, characters, and visual elements remain the property of their respective copyright holders. The MIT License applies only to the original content of this Skill (documentation, specifications, and code), not to any third-party intellectual property referenced within.
 
 ## Disclaimer
 
