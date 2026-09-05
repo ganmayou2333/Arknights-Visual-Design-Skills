@@ -16,7 +16,9 @@
 - [设计哲学](#设计哲学)
 - [快速参考表](#快速参考表)
 - [贡献指南](#贡献指南)
-- [许可证与免责声明](#许可证与免责声明)
+- [许可证](#许可证)
+- [版权声明](#版权声明)
+- [免责声明](#免责声明)
 
 ---
 
@@ -57,6 +59,7 @@ arknights-design-style-guide/
 ├── SKILL.md                          # 主入口：YAML 元数据 + 工作流程 + 快速参考
 ├── README.md                         # 英文文档
 ├── readme_cn.md                      # 中文文档（本文件，含安装教程）
+├── LICENSE                           # MIT 许可证
 └── references/
     ├── ui-style.md                   # UI 设计完整规范
     ├── poster-style.md               # 海报/主视觉完整规范
@@ -76,7 +79,7 @@ arknights-design-style-guide/
 - **如果从 GitHub 下载：** 点击仓库主页的 `Code` 按钮 → `Download ZIP`，下载后解压到本地。
 - **如果使用 Git 克隆：**
   ```bash
-  git clone https://github.com/你的用户名/arknights-design-style-guide.git
+  git clone https://github.com/ganmayou2333/avs.git
   ```
 
 #### 步骤 2：定位技能目录
@@ -113,6 +116,7 @@ arknights-design-style-guide/
 ├── SKILL.md
 ├── README.md
 ├── readme_cn.md
+├── LICENSE
 └── references/
     ├── ui-style.md
     ├── poster-style.md
@@ -291,8 +295,20 @@ ls -la ~/.super_doubao/super-doubao-runtime/workspace/.user_skills/arknights-des
 
 ---
 
-## 许可证与免责声明
+## 许可证
 
-本技能仅供学习和创意参考使用。明日方舟（Arknights）是鹰角网络 / Yostar 的商标。这是一个非官方的粉丝创作风格指南，与游戏开发商或发行商无隶属关系，也未获其认可。
+本项目采用 MIT 许可证，详见 [LICENSE](LICENSE) 文件。
 
-所有视觉规范均基于对游戏公开美术风格的观察总结，作为创意参考使用。官方品牌素材、Logo、角色设计的版权归各自所有者所有。
+---
+
+## 版权声明
+
+明日方舟（Arknights）是鹰角网络科技有限公司及 Yostar Limited 的商标。本项目为非官方粉丝创作的风格指南，与游戏开发商或发行商无隶属关系，也未获其认可或赞助。
+
+所有游戏相关名称、角色及视觉元素的版权归各自所有者所有。MIT 许可证仅适用于本技能的原创内容（文档、规范和代码），不适用于其中引用的任何第三方知识产权。
+
+---
+
+## 免责声明
+
+本技能仅供学习和创意参考使用。所有视觉规范均基于对游戏公开美术风格的观察总结，作为创意参考使用。官方品牌素材、Logo、角色设计的版权归各自所有者所有。
