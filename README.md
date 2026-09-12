@@ -2,9 +2,20 @@
 
 A collection of AI Agent Skills for creating and evaluating content in the official art style of *Arknights* (明日方舟).
 
+> **中文文档**：[readme_cn.md](readme_cn.md)
+
 ---
 
 ## Skills in This Repository
+
+This repository contains **two skills with different depth levels**, both covering the same three categories: **UI Interface**, **Poster/Key Art**, and **Animation/Motion Design**.
+
+| Skill | Positioning | Content | Best for |
+|-------|-------------|---------|----------|
+| [arknights-design-style-guide](arknights-design-style-guide/) | 完整版 · 严谨执行 | 三品类各 12 章完整规范，全量化参数 + 详细禁忌清单 | 需要精确落地的复杂任务：多界面系统、主视觉 KV、PV 分镜、联名宣传 |
+| [arknights-visual-style](arknights-visual-style/) | 精简版 · 快速套用 | 三品类要点速查 + 核心禁忌 | 快速生成、轻量集成、简单改稿 |
+
+> **选择建议**：追求细节完整、可对照执行的规范 → 用 `arknights-design-style-guide`；只需要快速得到"舟味"正确的产出 → 用 `arknights-visual-style`。两者也可并存，复合任务时互相补充。
 
 ### 1. arknights-design-style-guide
 
@@ -26,9 +37,40 @@ A concise visual style reference for Arknights UI, poster, and animation design.
 | File | Description |
 |------|-------------|
 | [SKILL.md](arknights-visual-style/SKILL.md) | Main entry with style overview |
+| [README.md](arknights-visual-style/README.md) | English documentation with installation guide |
+| [readme_cn.md](arknights-visual-style/readme_cn.md) | 中文文档，含安装教程 |
 | [references/ui-style.md](arknights-visual-style/references/ui-style.md) | UI style reference |
 | [references/poster-style.md](arknights-visual-style/references/poster-style.md) | Poster style reference |
 | [references/animation-style.md](arknights-visual-style/references/animation-style.md) | Animation style reference |
+
+---
+
+## Repository Structure
+
+```
+Arknights-Visual-Design-Skills/
+├── README.md                        # This index (English)
+├── readme_cn.md                     # Index (中文)
+├── LICENSE                          # MIT License
+├── arknights-design-style-guide/    # Full specification skill
+│   ├── SKILL.md                     # Main entry: frontmatter + workflow + quick reference
+│   ├── README.md                    # English docs with installation guide
+│   ├── readme_cn.md                 # 中文文档，含详细安装教程
+│   ├── LICENSE                      # MIT License
+│   └── references/
+│       ├── ui-style.md              # Complete UI specification (12 chapters)
+│       ├── poster-style.md          # Complete poster/key art specification (12 chapters)
+│       └── animation-style.md       # Complete animation/motion specification (12 chapters)
+└── arknights-visual-style/          # Concise reference skill
+    ├── SKILL.md                     # Main entry with style overview
+    ├── README.md                    # English docs with installation guide
+    ├── readme_cn.md                 # 中文文档，含安装教程
+    ├── LICENSE                      # MIT License
+    └── references/
+        ├── ui-style.md              # UI style reference
+        ├── poster-style.md          # Poster style reference
+        └── animation-style.md       # Animation style reference
+```
 
 ---
 
@@ -36,10 +78,14 @@ A concise visual style reference for Arknights UI, poster, and animation design.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/ganmayou2333/avs.git
+   git clone https://github.com/ganmayou2333/Arknights-Visual-Design-Skills.git
    ```
-2. Copy the desired skill folder into your agent's skills directory.
+   Or click **Code → Download ZIP** on the repository page and extract it locally.
+
+2. Copy the desired skill folder (e.g. `arknights-design-style-guide/`) into your agent's skills directory.
+
 3. Restart your agent session.
+
 4. Test with a prompt like: *"Design an Arknights-style operator profile UI"*
 
 See each skill's `README.md` / `readme_cn.md` for detailed installation instructions (manual installation and AI prompt installation methods).

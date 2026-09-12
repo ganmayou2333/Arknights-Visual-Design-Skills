@@ -79,7 +79,7 @@ arknights-design-style-guide/
 - **如果从 GitHub 下载：** 点击仓库主页的 `Code` 按钮 → `Download ZIP`，下载后解压到本地。
 - **如果使用 Git 克隆：**
   ```bash
-  git clone https://github.com/ganmayou2333/avs.git
+  git clone https://github.com/ganmayou2333/Arknights-Visual-Design-Skills.git
   ```
 
 #### 步骤 2：定位技能目录
