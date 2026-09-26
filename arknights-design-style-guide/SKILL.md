@@ -1,6 +1,8 @@
 ---
 name: arknights-design-style-guide
 description: 生成或评估符合《明日方舟》官方美术调性的视觉内容，覆盖 UI 界面、宣传海报/角色立绘、动画/动态设计三大品类。当用户要求设计、绘制、生成或改稿明日方舟风格的界面（主界面、干员档案、技能面板、招募界面、作战 HUD）、海报（活动主视觉 KV、角色立绘、IP 联名宣传图、周年贺图）、动画（PV 宣传片、技能演出、动态立绘 Live2D、界面动效、剧情过场），或要求"舟味/舟游风格/鹰角风格/方舟美术/Arknights style"时使用；也适用于让任意视觉作品（游戏 UI、海报、宣传片）向明日方舟风格靠拢的改造任务。
+version: "1.0.0"
+repository: https://github.com/ganmayou2333/Arknights-Visual-Design-Skills
 ---
 
 # Arknights Design Style Guide（明日方舟设计风格指南）
@@ -66,3 +68,16 @@ description: 生成或评估符合《明日方舟》官方美术调性的视觉�
 - `references/ui-style.md` — UI 设计风格完整规范（12 章：色彩系统/字体排版/布局网格/组件/图标/纹理/动效/界面配方/交互/数据可视化/禁忌）
 - `references/poster-style.md` — 海报设计风格完整规范（12 章：构图/色彩/光影/角色/背景/文字/颗粒/联名适配/配方/尺寸/禁忌）
 - `references/animation-style.md` — 动画设计风格完整规范（12 章：节奏/镜头/角色动画/环境特效/UI转场/技能演出/声音/Live2D/配方/规格/禁忌）
+
+## 版本与更新
+
+- **当前版本**：v1.0.0（2026-09-26）
+- **仓库地址**：https://github.com/ganmayou2333/Arknights-Visual-Design-Skills
+- **检查更新**：
+  - 网页端：打开仓库主页，查看 README 顶部的版本徽章与最近提交记录
+  - 命令行：在仓库目录执行 `git pull` 同步最新内容
+  - Releases：关注仓库 Releases 页面获取版本变更说明
+
+## 示例
+
+仓库 `examples/collaborations/` 提供三张真实联动海报示例（彩虹六号「源石尘行动」、迷宫饭「泰拉饭」、怪物猎人「落叶逐火」），均按 `references/poster-style.md` 第 9 章联名适配规范生成，可作为联名任务的落地参考与风格 moodboard。

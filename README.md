@@ -2,6 +2,8 @@
 
 > A collection of AI Agent Skills for creating and evaluating content in the official art style of *Arknights* (明日方舟) — covering **UI Interface**, **Poster / Key Art**, and **Animation / Motion Design**.
 
+> **中文文档**：[readme_cn.md](readme_cn.md)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/Skills-2-3F72AF.svg)](#skills)
 [![Categories](https://img.shields.io/badge/Categories-UI%20%7C%20Poster%20%7C%20Animation-56B6C9.svg)](#design-philosophy)
@@ -71,7 +73,7 @@ A lightweight style reference with essential parameters and core taboos for each
 
 ```bash
 # Clone the repository
-git clone https://github.com/ganmayou2333/avs.git
+git clone https://github.com/ganmayou2333/Arknights-Visual-Design-Skills.git
 
 # Or download: Code → Download ZIP
 ```
@@ -140,8 +142,9 @@ See each skill's `README.md` / `readme_cn.md` for detailed installation instruct
 ## Repository Structure
 
 ```
-avs/
+Arknights-Visual-Design-Skills/
 ├── README.md                              # This index (English)
+├── readme_cn.md                           # This index (中文)
 ├── LICENSE                                # MIT License
 ├── arknights-design-style-guide/          # Full specification skill
 │   ├── SKILL.md                           # Main entry: frontmatter + workflow + quick ref
@@ -151,12 +154,18 @@ avs/
 │       ├── ui-style.md                    # UI spec (12 chapters, ~690 lines)
 │       ├── poster-style.md                # Poster spec (12 chapters, ~620 lines)
 │       └── animation-style.md             # Animation spec (12 chapters, ~700 lines)
-└── arknights-visual-style/                # Concise reference skill
-    ├── SKILL.md                           # Main entry with style overview
-    └── references/
-        ├── ui-style.md                    # UI quick reference
-        ├── poster-style.md                # Poster quick reference
-        └── animation-style.md             # Animation quick reference
+├── arknights-visual-style/                # Concise reference skill
+│   ├── SKILL.md                           # Main entry with style overview
+│   └── references/
+│       ├── ui-style.md                    # UI quick reference
+│       ├── poster-style.md                # Poster quick reference
+│       └── animation-style.md             # Animation quick reference
+└── examples/
+    └── collaborations/                    # Real IP collaboration poster examples
+        ├── README.md                      # Design breakdown for each example
+        ├── 01-arknights-x-r6s-source-dust-operation.jpg
+        ├── 02-arknights-x-delicious-in-dungeon-terra-meal.jpg
+        └── 03-arknights-x-monster-hunter-falling-leaves.jpg
 ```
 
 ---
@@ -169,6 +178,16 @@ A live interactive demo built with these design specifications:
 - Full Arknights-style admin dashboard with sidebar, KPI cards, ECharts visualizations, sortable operator table, and detail modals
 - 45° chamfer corners, dark charcoal base, Rhodes Island blue accents, film grain texture
 - Zero rounded corners, no glass-morphism, no neon glow
+
+### Real Collaboration Examples
+
+Poster examples generated with the **IP collaboration rules** (`poster-style.md` §9) for three real Arknights collaborations — each keeps the Arknights art style while transplanting the partner IP's setting and props (visual weight ≈ 6:4). Full design breakdowns: [examples/collaborations/README.md](examples/collaborations/README.md)
+
+| Collaboration | Example |
+|---|---|
+| Arknights × Rainbow Six Siege —「源石尘行动」 | ![R6S](examples/collaborations/01-arknights-x-r6s-source-dust-operation.jpg) |
+| Arknights × Delicious in Dungeon —「泰拉饭」 | ![Delicious in Dungeon](examples/collaborations/02-arknights-x-delicious-in-dungeon-terra-meal.jpg) |
+| Arknights × Monster Hunter —「落叶逐火」 | ![Monster Hunter](examples/collaborations/03-arknights-x-monster-hunter-falling-leaves.jpg) |
 
 ---
 
